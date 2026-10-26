@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+(function(){
+  var t = new URL(location.href).searchParams.get('to');
+  location.replace(t || 'https://example.com/');
+})();
+</script>
+</head>
+<body>pivot</body>
+</html>
